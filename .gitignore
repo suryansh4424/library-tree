@@ -1,0 +1,8 @@
+*.o
+libtree.a
+libtree.so*
+libtree.pc
+TAGS
+cscope.out
+.depend
+CMakeLists.txt.user

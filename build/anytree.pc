@@ -1,0 +1,11 @@
+prefix=C:/Program Files/anytree
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: anytree
+Description: A collection of binary seach trees
+Version: 0.1
+Requires:
+Libs: -L${libdir} -lanytree
+Cflags: -I${includedir}

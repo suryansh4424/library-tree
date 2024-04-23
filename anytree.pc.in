@@ -1,0 +1,11 @@
+prefix=@CMAKE_INSTALL_PREFIX@
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: anytree
+Description: A collection of binary seach trees
+Version: @anytree_VERSION_MAJOR@.@anytree_VERSION_MINOR@
+Requires:
+Libs: -L${libdir} -l@PROJECT_NAME@
+Cflags: -I${includedir}
